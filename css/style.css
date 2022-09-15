@@ -1,0 +1,49 @@
+body{
+    background-image: url(/images/foodpic.webp);
+}
+
+.container-foodMenu{
+    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 100px;
+    gap: 20px;
+    
+}
+.food{
+    flex-basis: 35%;
+    
+    opacity: 100;
+    
+    cursor: pointer;
+    background-color: #fff;
+   transition: .2s;
+   background-image: linear-gradient( white, red);
+   
+   
+}
+
+.food:hover{
+    box-shadow:  10px 10px ;
+    transition: .5s;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: blueviolet;
+   padding: 10px;
+   
+}
+
