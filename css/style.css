@@ -39,3 +39,7 @@ footer {
   background-color: #dc3545;
   padding: 1px;
 }
+
+p {
+  text-align: center;
+}
